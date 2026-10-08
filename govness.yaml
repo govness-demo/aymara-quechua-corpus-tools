@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "andean-institute-public-ai.aymara-quechua-corpus-tools"
+name: "Aymara and Quechua corpus tools"
+type: "connector"
+version: "0.4.2"
+summary: "Tools to clean, align and publish Aymara and Quechua text corpora for public-service language models."
+description: "Command-line tools for building parallel corpora from public documents, with consent and licence tracking for every source."
+publisher:
+  environment: "andean-institute-public-ai"
+  body: "Andean Institute for Public AI"
+languages: ["ay", "qu", "es"]
+license: "MIT"
+interfaces:
+  protocol: "cli"
+links:
+  repo: "https://github.com/govness-demo/aymara-quechua-corpus-tools"
+domains: ["culture-and-tourism", "digital-services"]
